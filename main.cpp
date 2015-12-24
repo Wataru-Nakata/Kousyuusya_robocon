@@ -1,5 +1,7 @@
 #include "mbed.h"
 #include "Servo.h"
+#define servomax 90;
+#define servomin 0;
 Serial pc (USBTX,USBRX);
 DigitalOut myled(LED1);
 Servo cam (D3);
@@ -14,13 +16,13 @@ int main() {
         {
             i += fabs(320-x)/64000.0*5*2;
         }
-        if (i> 1){
-            i = 1;
+        if (i> servomax){
+            i = servomax;
         }
-        if (i<0){
-            i = 0;
+        if (i<servomin){
+            i = servomin;
         }
         cam.position(i);
-        pc.putc(char(i*255));
+        pc.putc(char((i/90.0)*255));
     }
 }
