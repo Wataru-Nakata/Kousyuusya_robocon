@@ -1,7 +1,7 @@
 #include "mbed.h"
 #include "Servo.h"
-#define servomax 90;
-#define servomin 0;
+#define servomax 90
+#define servomin 0
 Serial pc (USBTX,USBRX);
 DigitalOut myled(LED1);
 Servo cam (D3);
