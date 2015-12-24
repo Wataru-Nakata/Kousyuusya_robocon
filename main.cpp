@@ -20,7 +20,7 @@ int main() {
         if (i<0){
             i = 0;
         }
-        cam.write(i);
+        cam.position(i);
         pc.putc(char(i*255));
     }
 }
