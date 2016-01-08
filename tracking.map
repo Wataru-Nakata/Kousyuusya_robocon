@@ -2928,7 +2928,7 @@ END GROUP
 LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
 LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
 
-.text           0x08000000     0x91b0
+.text           0x08000000     0x9198
  *(.isr_vector)
  .isr_vector    0x08000000      0x198 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
                 0x08000000                g_pfnVectors
@@ -2954,841 +2954,841 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm
                 0x0800029c        0xc main.o
                 0x0800029c                mbed::SerialBase::~SerialBase()
  .text.startup.main
-                0x080002a8      0x14c main.o
+                0x080002a8      0x134 main.o
                 0x080002a8                main
  .text._ZN4mbed6SerialD0Ev
-                0x080003f4       0x1e main.o
-                0x080003f4                mbed::Serial::~Serial()
-                0x08000406                non-virtual thunk to mbed::Serial::~Serial()
-                0x0800040c                non-virtual thunk to mbed::Serial::~Serial()
- *fill*         0x08000412        0x2 
+                0x080003dc       0x1e main.o
+                0x080003dc                mbed::Serial::~Serial()
+                0x080003ee                non-virtual thunk to mbed::Serial::~Serial()
+                0x080003f4                non-virtual thunk to mbed::Serial::~Serial()
+ *fill*         0x080003fa        0x2 
  .text.startup._GLOBAL__sub_I_pc
-                0x08000414       0x50 main.o
- *fill*         0x08000464        0x4 
+                0x080003fc       0x50 main.o
+ *fill*         0x0800044c        0x4 
  .text._ZN5Servo5writeEf
-                0x08000468       0xc8 Servo/Servo.o
-                0x08000468                Servo::write(float)
+                0x08000450       0xc8 Servo/Servo.o
+                0x08000450                Servo::write(float)
  .text._ZN5ServoC2E7PinName
-                0x08000530       0x28 Servo/Servo.o
-                0x08000530                Servo::Servo(PinName)
-                0x08000530                Servo::Servo(PinName)
+                0x08000518       0x28 Servo/Servo.o
+                0x08000518                Servo::Servo(PinName)
+                0x08000518                Servo::Servo(PinName)
  .text._ZN5Servo8positionEf
-                0x08000558       0x68 Servo/Servo.o
-                0x08000558                Servo::position(float)
+                0x08000540       0x68 Servo/Servo.o
+                0x08000540                Servo::position(float)
  .text.mbed_die
-                0x080005c0       0x14 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/board.o
-                0x080005c0                mbed_die
+                0x080005a8       0x14 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/board.o
+                0x080005a8                mbed_die
  .text.NVIC_SetVector
-                0x080005d4       0x48 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/cmsis_nvic.o
-                0x080005d4                NVIC_SetVector
+                0x080005bc       0x48 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/cmsis_nvic.o
+                0x080005bc                NVIC_SetVector
  .text.timer_irq_handler
-                0x0800061c       0x48 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/hal_tick.o
-                0x0800061c                timer_irq_handler
+                0x08000604       0x48 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/hal_tick.o
+                0x08000604                timer_irq_handler
  .text.HAL_InitTick
-                0x08000664       0xb4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/hal_tick.o
-                0x08000664                HAL_InitTick
+                0x0800064c       0xb4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/hal_tick.o
+                0x0800064c                HAL_InitTick
  .text.mbed_sdk_init
-                0x08000718       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_overrides.o
-                0x08000718                mbed_sdk_init
+                0x08000700       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/mbed_overrides.o
+                0x08000700                mbed_sdk_init
  .text._ZN4mbed10FileHandle4flenEv
-                0x08000728       0x34 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08000728                mbed::FileHandle::flen()
+                0x08000710       0x34 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08000710                mbed::FileHandle::flen()
  .text._ZN4mbed10FileHandleD2Ev
-                0x0800075c       0x2c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x0800075c                mbed::FileHandle::~FileHandle()
-                0x0800075c                mbed::FileHandle::~FileHandle()
+                0x08000744       0x2c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08000744                mbed::FileHandle::~FileHandle()
+                0x08000744                mbed::FileHandle::~FileHandle()
  .text._ZN4mbed10FileHandleD0Ev
-                0x08000788       0x34 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08000788                mbed::FileHandle::~FileHandle()
+                0x08000770       0x34 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08000770                mbed::FileHandle::~FileHandle()
  .text._ZL11init_serialv.part.0
-                0x080007bc       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
- .text._open    0x080007cc       0xf8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x080007cc                _open
- .text._close   0x080008c4       0x2c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x080008c4                _close
- .text._write   0x080008f0       0x50 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x080008f0                _write
- .text._read    0x08000940       0x4c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08000940                _read
- .text._isatty  0x0800098c       0x28 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x0800098c                _isatty
- .text._lseek   0x080009b4       0x28 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x080009b4                _lseek
- .text._fstat   0x080009dc       0x20 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x080009dc                _fstat
+                0x080007a4       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+ .text._open    0x080007b4       0xf8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080007b4                _open
+ .text._close   0x080008ac       0x2c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080008ac                _close
+ .text._write   0x080008d8       0x50 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080008d8                _write
+ .text._read    0x08000928       0x4c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08000928                _read
+ .text._isatty  0x08000974       0x28 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08000974                _isatty
+ .text._lseek   0x0800099c       0x28 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x0800099c                _lseek
+ .text._fstat   0x080009c4       0x20 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080009c4                _fstat
  .text.__cxa_pure_virtual
-                0x080009fc        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x080009fc                __cxa_pure_virtual
+                0x080009e4        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080009e4                __cxa_pure_virtual
  .text.mbed_main
-                0x08000a04        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08000a04                mbed_main
+                0x080009ec        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080009ec                mbed_main
  .text.__wrap_main
-                0x08000a08       0x14 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08000a08                __wrap_main
- .text._sbrk    0x08000a1c       0x28 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08000a1c                _sbrk
- .text._exit    0x08000a44       0x24 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08000a44                _exit
+                0x080009f0       0x14 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080009f0                __wrap_main
+ .text._sbrk    0x08000a04       0x28 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08000a04                _sbrk
+ .text._exit    0x08000a2c       0x24 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08000a2c                _exit
  .text._ZN4mbed26mbed_set_unbuffered_streamEP7__sFILE
-                0x08000a68        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08000a68                mbed::mbed_set_unbuffered_stream(__sFILE*)
+                0x08000a50        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08000a50                mbed::mbed_set_unbuffered_stream(__sFILE*)
  .text._ZN4mbed9mbed_getcEP7__sFILE
-                0x08000a70        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08000a70                mbed::mbed_getc(__sFILE*)
+                0x08000a58        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08000a58                mbed::mbed_getc(__sFILE*)
  .text.Reset_Handler
-                0x08000a74       0x54 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
-                0x08000a74                Reset_Handler
+                0x08000a5c       0x54 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
+                0x08000a5c                Reset_Handler
  .text.Default_Handler
-                0x08000ac8        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
-                0x08000ac8                RTC_Alarm_IRQHandler
-                0x08000ac8                EXTI2_IRQHandler
-                0x08000ac8                DebugMon_Handler
-                0x08000ac8                SPI4_IRQHandler
-                0x08000ac8                TIM1_CC_IRQHandler
-                0x08000ac8                DMA2_Stream5_IRQHandler
-                0x08000ac8                HardFault_Handler
-                0x08000ac8                DMA1_Stream5_IRQHandler
-                0x08000ac8                SysTick_Handler
-                0x08000ac8                PVD_IRQHandler
-                0x08000ac8                SDIO_IRQHandler
-                0x08000ac8                TAMP_STAMP_IRQHandler
-                0x08000ac8                PendSV_Handler
-                0x08000ac8                NMI_Handler
-                0x08000ac8                EXTI3_IRQHandler
-                0x08000ac8                TIM1_UP_TIM10_IRQHandler
-                0x08000ac8                I2C3_ER_IRQHandler
-                0x08000ac8                EXTI0_IRQHandler
-                0x08000ac8                I2C2_EV_IRQHandler
-                0x08000ac8                DMA1_Stream2_IRQHandler
-                0x08000ac8                FPU_IRQHandler
-                0x08000ac8                UsageFault_Handler
-                0x08000ac8                DMA2_Stream2_IRQHandler
-                0x08000ac8                SPI1_IRQHandler
-                0x08000ac8                TIM1_BRK_TIM9_IRQHandler
-                0x08000ac8                DMA2_Stream3_IRQHandler
-                0x08000ac8                USART6_IRQHandler
-                0x08000ac8                DMA2_Stream0_IRQHandler
-                0x08000ac8                TIM4_IRQHandler
-                0x08000ac8                I2C1_EV_IRQHandler
-                0x08000ac8                DMA1_Stream6_IRQHandler
-                0x08000ac8                DMA1_Stream1_IRQHandler
-                0x08000ac8                TIM3_IRQHandler
-                0x08000ac8                RCC_IRQHandler
-                0x08000ac8                Default_Handler
-                0x08000ac8                EXTI15_10_IRQHandler
-                0x08000ac8                ADC_IRQHandler
-                0x08000ac8                DMA1_Stream7_IRQHandler
-                0x08000ac8                SPI5_IRQHandler
-                0x08000ac8                TIM5_IRQHandler
-                0x08000ac8                DMA2_Stream7_IRQHandler
-                0x08000ac8                I2C3_EV_IRQHandler
-                0x08000ac8                EXTI9_5_IRQHandler
-                0x08000ac8                RTC_WKUP_IRQHandler
-                0x08000ac8                SPI2_IRQHandler
-                0x08000ac8                MemManage_Handler
-                0x08000ac8                DMA1_Stream0_IRQHandler
-                0x08000ac8                SVC_Handler
-                0x08000ac8                EXTI4_IRQHandler
-                0x08000ac8                WWDG_IRQHandler
-                0x08000ac8                TIM2_IRQHandler
-                0x08000ac8                OTG_FS_WKUP_IRQHandler
-                0x08000ac8                TIM1_TRG_COM_TIM11_IRQHandler
-                0x08000ac8                EXTI1_IRQHandler
-                0x08000ac8                USART2_IRQHandler
-                0x08000ac8                I2C2_ER_IRQHandler
-                0x08000ac8                DMA2_Stream1_IRQHandler
-                0x08000ac8                FLASH_IRQHandler
-                0x08000ac8                DMA2_Stream4_IRQHandler
-                0x08000ac8                BusFault_Handler
-                0x08000ac8                USART1_IRQHandler
-                0x08000ac8                OTG_FS_IRQHandler
-                0x08000ac8                SPI3_IRQHandler
-                0x08000ac8                DMA1_Stream4_IRQHandler
-                0x08000ac8                I2C1_ER_IRQHandler
-                0x08000ac8                DMA2_Stream6_IRQHandler
-                0x08000ac8                DMA1_Stream3_IRQHandler
+                0x08000ab0        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/startup_stm32f411xe.o
+                0x08000ab0                RTC_Alarm_IRQHandler
+                0x08000ab0                EXTI2_IRQHandler
+                0x08000ab0                DebugMon_Handler
+                0x08000ab0                SPI4_IRQHandler
+                0x08000ab0                TIM1_CC_IRQHandler
+                0x08000ab0                DMA2_Stream5_IRQHandler
+                0x08000ab0                HardFault_Handler
+                0x08000ab0                DMA1_Stream5_IRQHandler
+                0x08000ab0                SysTick_Handler
+                0x08000ab0                PVD_IRQHandler
+                0x08000ab0                SDIO_IRQHandler
+                0x08000ab0                TAMP_STAMP_IRQHandler
+                0x08000ab0                PendSV_Handler
+                0x08000ab0                NMI_Handler
+                0x08000ab0                EXTI3_IRQHandler
+                0x08000ab0                TIM1_UP_TIM10_IRQHandler
+                0x08000ab0                I2C3_ER_IRQHandler
+                0x08000ab0                EXTI0_IRQHandler
+                0x08000ab0                I2C2_EV_IRQHandler
+                0x08000ab0                DMA1_Stream2_IRQHandler
+                0x08000ab0                FPU_IRQHandler
+                0x08000ab0                UsageFault_Handler
+                0x08000ab0                DMA2_Stream2_IRQHandler
+                0x08000ab0                SPI1_IRQHandler
+                0x08000ab0                TIM1_BRK_TIM9_IRQHandler
+                0x08000ab0                DMA2_Stream3_IRQHandler
+                0x08000ab0                USART6_IRQHandler
+                0x08000ab0                DMA2_Stream0_IRQHandler
+                0x08000ab0                TIM4_IRQHandler
+                0x08000ab0                I2C1_EV_IRQHandler
+                0x08000ab0                DMA1_Stream6_IRQHandler
+                0x08000ab0                DMA1_Stream1_IRQHandler
+                0x08000ab0                TIM3_IRQHandler
+                0x08000ab0                RCC_IRQHandler
+                0x08000ab0                Default_Handler
+                0x08000ab0                EXTI15_10_IRQHandler
+                0x08000ab0                ADC_IRQHandler
+                0x08000ab0                DMA1_Stream7_IRQHandler
+                0x08000ab0                SPI5_IRQHandler
+                0x08000ab0                TIM5_IRQHandler
+                0x08000ab0                DMA2_Stream7_IRQHandler
+                0x08000ab0                I2C3_EV_IRQHandler
+                0x08000ab0                EXTI9_5_IRQHandler
+                0x08000ab0                RTC_WKUP_IRQHandler
+                0x08000ab0                SPI2_IRQHandler
+                0x08000ab0                MemManage_Handler
+                0x08000ab0                DMA1_Stream0_IRQHandler
+                0x08000ab0                SVC_Handler
+                0x08000ab0                EXTI4_IRQHandler
+                0x08000ab0                WWDG_IRQHandler
+                0x08000ab0                TIM2_IRQHandler
+                0x08000ab0                OTG_FS_WKUP_IRQHandler
+                0x08000ab0                TIM1_TRG_COM_TIM11_IRQHandler
+                0x08000ab0                EXTI1_IRQHandler
+                0x08000ab0                USART2_IRQHandler
+                0x08000ab0                I2C2_ER_IRQHandler
+                0x08000ab0                DMA2_Stream1_IRQHandler
+                0x08000ab0                FLASH_IRQHandler
+                0x08000ab0                DMA2_Stream4_IRQHandler
+                0x08000ab0                BusFault_Handler
+                0x08000ab0                USART1_IRQHandler
+                0x08000ab0                OTG_FS_IRQHandler
+                0x08000ab0                SPI3_IRQHandler
+                0x08000ab0                DMA1_Stream4_IRQHandler
+                0x08000ab0                I2C1_ER_IRQHandler
+                0x08000ab0                DMA2_Stream6_IRQHandler
+                0x08000ab0                DMA1_Stream3_IRQHandler
  .text.HAL_Init
-                0x08000acc       0x34 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
-                0x08000acc                HAL_Init
+                0x08000ab4       0x34 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
+                0x08000ab4                HAL_Init
  .text.HAL_IncTick
-                0x08000b00       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
-                0x08000b00                HAL_IncTick
+                0x08000ae8       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
+                0x08000ae8                HAL_IncTick
  .text.HAL_GetTick
-                0x08000b10        0xc mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
-                0x08000b10                HAL_GetTick
+                0x08000af8        0xc mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal.o
+                0x08000af8                HAL_GetTick
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000b1c       0x24 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_cortex.o
-                0x08000b1c                HAL_NVIC_SetPriorityGrouping
+                0x08000b04       0x24 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_cortex.o
+                0x08000b04                HAL_NVIC_SetPriorityGrouping
  .text.HAL_MspInit
-                0x08000b40        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_msp_template.o
-                0x08000b40                HAL_MspInit
+                0x08000b28        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_msp_template.o
+                0x08000b28                HAL_MspInit
  .text.HAL_GPIO_Init
-                0x08000b44      0x214 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_gpio.o
-                0x08000b44                HAL_GPIO_Init
+                0x08000b2c      0x214 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_gpio.o
+                0x08000b2c                HAL_GPIO_Init
  .text.HAL_RCC_OscConfig
-                0x08000d58      0x370 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x08000d58                HAL_RCC_OscConfig
+                0x08000d40      0x370 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x08000d40                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x080010c8      0x1fc mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x080010c8                HAL_RCC_ClockConfig
+                0x080010b0      0x1fc mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x080010b0                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x080012c4       0x88 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x080012c4                HAL_RCC_GetSysClockFreq
+                0x080012ac       0x88 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x080012ac                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x0800134c       0x38 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x0800134c                HAL_RCC_GetHCLKFreq
+                0x08001334       0x38 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x08001334                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08001384       0x30 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x08001384                HAL_RCC_GetPCLK1Freq
+                0x0800136c       0x30 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x0800136c                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x080013b4       0x30 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x080013b4                HAL_RCC_GetPCLK2Freq
+                0x0800139c       0x30 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x0800139c                HAL_RCC_GetPCLK2Freq
  .text.TIM_OC1_SetConfig
-                0x080013e4       0x58 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x080013cc       0x58 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
  .text.TIM_OC3_SetConfig
-                0x0800143c       0x5c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001424       0x5c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
  .text.TIM_OC4_SetConfig
-                0x08001498       0x48 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001480       0x48 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
  .text.HAL_TIM_OC_MspInit
-                0x080014e0        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x080014e0                HAL_TIM_OC_MspInit
+                0x080014c8        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x080014c8                HAL_TIM_OC_MspInit
  .text.HAL_TIM_OC_Start
-                0x080014e4       0x40 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x080014e4                HAL_TIM_OC_Start
+                0x080014cc       0x40 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x080014cc                HAL_TIM_OC_Start
  .text.HAL_TIM_PWM_MspInit
-                0x08001524        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001524                HAL_TIM_PWM_MspInit
+                0x0800150c        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x0800150c                HAL_TIM_PWM_MspInit
  .text.HAL_TIM_PWM_Start
-                0x08001528       0x40 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001528                HAL_TIM_PWM_Start
+                0x08001510       0x40 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001510                HAL_TIM_PWM_Start
  .text.TIM_Base_SetConfig
-                0x08001568       0xa0 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001568                TIM_Base_SetConfig
+                0x08001550       0xa0 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001550                TIM_Base_SetConfig
  .text.HAL_TIM_OC_Init
-                0x08001608       0x38 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001608                HAL_TIM_OC_Init
+                0x080015f0       0x38 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x080015f0                HAL_TIM_OC_Init
  .text.HAL_TIM_PWM_Init
-                0x08001640       0x38 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001640                HAL_TIM_PWM_Init
+                0x08001628       0x38 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001628                HAL_TIM_PWM_Init
  .text.TIM_OC2_SetConfig
-                0x08001678       0x5c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x08001678                TIM_OC2_SetConfig
+                0x08001660       0x5c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x08001660                TIM_OC2_SetConfig
  .text.HAL_TIM_PWM_ConfigChannel
-                0x080016d4       0xd4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
-                0x080016d4                HAL_TIM_PWM_ConfigChannel
+                0x080016bc       0xd4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim.o
+                0x080016bc                HAL_TIM_PWM_ConfigChannel
  .text.HAL_TIMEx_PWMN_Start
-                0x080017a8       0x2c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim_ex.o
-                0x080017a8                HAL_TIMEx_PWMN_Start
+                0x08001790       0x2c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_tim_ex.o
+                0x08001790                HAL_TIMEx_PWMN_Start
  .text.UART_SetConfig
-                0x080017d4      0x1b4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
+                0x080017bc      0x1b4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
  .text.HAL_UART_MspInit
-                0x08001988        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
-                0x08001988                HAL_UART_MspInit
+                0x08001970        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
+                0x08001970                HAL_UART_MspInit
  .text.HAL_UART_Init
-                0x0800198c       0x5c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
-                0x0800198c                HAL_UART_Init
+                0x08001974       0x5c mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_uart.o
+                0x08001974                HAL_UART_Init
  .text.SystemCoreClockUpdate
-                0x080019e8       0x70 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x080019e8                SystemCoreClockUpdate
+                0x080019d0       0x70 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x080019d0                SystemCoreClockUpdate
  .text.SetSysClock_PLL_HSE
-                0x08001a58       0x90 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x08001a58                SetSysClock_PLL_HSE
+                0x08001a40       0x90 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x08001a40                SetSysClock_PLL_HSE
  .text.SetSysClock_PLL_HSI
-                0x08001ae8       0x98 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x08001ae8                SetSysClock_PLL_HSI
+                0x08001ad0       0x98 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x08001ad0                SetSysClock_PLL_HSI
  .text.SetSysClock
-                0x08001b80       0x20 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x08001b80                SetSysClock
+                0x08001b68       0x20 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x08001b68                SetSysClock
  .text.SystemInit
-                0x08001ba0       0x74 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x08001ba0                SystemInit
+                0x08001b88       0x74 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x08001b88                SystemInit
  .text.pwmout_write
-                0x08001c14       0xa0 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
-                0x08001c14                pwmout_write
+                0x08001bfc       0xa0 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
+                0x08001bfc                pwmout_write
  .text.pwmout_period_us
-                0x08001cb4       0xac ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
-                0x08001cb4                pwmout_period_us
+                0x08001c9c       0xac ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
+                0x08001c9c                pwmout_period_us
  .text.pwmout_init
-                0x08001d60      0x154 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
-                0x08001d60                pwmout_init
+                0x08001d48      0x154 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
+                0x08001d48                pwmout_init
  .text.pwmout_pulsewidth
-                0x08001eb4       0x2c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
-                0x08001eb4                pwmout_pulsewidth
+                0x08001e9c       0x2c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
+                0x08001e9c                pwmout_pulsewidth
  .text.init_uart
-                0x08001ee0       0x4c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
+                0x08001ec8       0x4c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
  .text.serial_init
-                0x08001f2c      0x120 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
-                0x08001f2c                serial_init
+                0x08001f14      0x120 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
+                0x08001f14                serial_init
  .text.serial_irq_handler
-                0x0800204c       0x1c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
-                0x0800204c                serial_irq_handler
+                0x08002034       0x1c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
+                0x08002034                serial_irq_handler
  .text.serial_getc
-                0x08002068       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
-                0x08002068                serial_getc
+                0x08002050       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
+                0x08002050                serial_getc
  .text.serial_putc
-                0x08002080       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
-                0x08002080                serial_putc
+                0x08002068       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
+                0x08002068                serial_putc
  .text._ZN4mbed8FilePathC2EPKc
-                0x08002098       0x58 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
-                0x08002098                mbed::FilePath::FilePath(char const*)
-                0x08002098                mbed::FilePath::FilePath(char const*)
+                0x08002080       0x58 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
+                0x08002080                mbed::FilePath::FilePath(char const*)
+                0x08002080                mbed::FilePath::FilePath(char const*)
  .text._ZN4mbed8FilePath8fileNameEv
-                0x080020f0        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
-                0x080020f0                mbed::FilePath::fileName()
+                0x080020d8        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
+                0x080020d8                mbed::FilePath::fileName()
  .text._ZN4mbed8FilePath10fileSystemEv
-                0x080020f4       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
-                0x080020f4                mbed::FilePath::fileSystem()
+                0x080020dc       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
+                0x080020dc                mbed::FilePath::fileSystem()
  .text._ZN4mbed8FilePath6isFileEv
-                0x0800210c       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
-                0x0800210c                mbed::FilePath::isFile()
+                0x080020f4       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
+                0x080020f4                mbed::FilePath::isFile()
  .text._ZN4mbed8FilePath4fileEv
-                0x08002120       0x1c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
-                0x08002120                mbed::FilePath::file()
+                0x08002108       0x1c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
+                0x08002108                mbed::FilePath::file()
  .text._ZN4mbed8FilePath6existsEv
-                0x0800213c        0xc ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
-                0x0800213c                mbed::FilePath::exists()
+                0x08002124        0xc ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FilePath.o)
+                0x08002124                mbed::FilePath::exists()
  .text._ZN4mbed6Serial5_getcEv
-                0x08002148        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
-                0x08002148                mbed::Serial::_getc()
+                0x08002130        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
+                0x08002130                mbed::Serial::_getc()
  .text._ZThn84_N4mbed6Serial5_getcEv
-                0x0800214c        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
-                0x0800214c                non-virtual thunk to mbed::Serial::_getc()
+                0x08002134        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
+                0x08002134                non-virtual thunk to mbed::Serial::_getc()
  .text._ZN4mbed6Serial5_putcEi
-                0x08002154        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
-                0x08002154                mbed::Serial::_putc(int)
+                0x0800213c        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
+                0x0800213c                mbed::Serial::_putc(int)
  .text._ZThn84_N4mbed6Serial5_putcEi
-                0x08002158        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
-                0x08002158                non-virtual thunk to mbed::Serial::_putc(int)
+                0x08002140        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
+                0x08002140                non-virtual thunk to mbed::Serial::_putc(int)
  .text._ZN4mbed6SerialC2E7PinNameS1_PKc
-                0x08002160       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
-                0x08002160                mbed::Serial::Serial(PinName, PinName, char const*)
-                0x08002160                mbed::Serial::Serial(PinName, PinName, char const*)
+                0x08002148       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
+                0x08002148                mbed::Serial::Serial(PinName, PinName, char const*)
+                0x08002148                mbed::Serial::Serial(PinName, PinName, char const*)
  .text._ZN4mbed10SerialBase12_irq_handlerEm9SerialIrq
-                0x08002190       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(SerialBase.o)
-                0x08002190                mbed::SerialBase::_irq_handler(unsigned long, SerialIrq)
+                0x08002178       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(SerialBase.o)
+                0x08002178                mbed::SerialBase::_irq_handler(unsigned long, SerialIrq)
  .text._ZN4mbed10SerialBaseC2E7PinNameS1_
-                0x080021b4       0x48 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(SerialBase.o)
-                0x080021b4                mbed::SerialBase::SerialBase(PinName, PinName)
-                0x080021b4                mbed::SerialBase::SerialBase(PinName, PinName)
+                0x0800219c       0x48 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(SerialBase.o)
+                0x0800219c                mbed::SerialBase::SerialBase(PinName, PinName)
+                0x0800219c                mbed::SerialBase::SerialBase(PinName, PinName)
  .text._ZN4mbed10SerialBase10_base_getcEv
-                0x080021fc        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(SerialBase.o)
-                0x080021fc                mbed::SerialBase::_base_getc()
+                0x080021e4        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(SerialBase.o)
+                0x080021e4                mbed::SerialBase::_base_getc()
  .text._ZN4mbed10SerialBase10_base_putcEi
-                0x08002204       0x10 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(SerialBase.o)
-                0x08002204                mbed::SerialBase::_base_putc(int)
+                0x080021ec       0x10 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(SerialBase.o)
+                0x080021ec                mbed::SerialBase::_base_putc(int)
  .text._ZN4mbed6Stream5closeEv
-                0x08002214        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x08002214                mbed::Stream::close()
+                0x080021fc        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x080021fc                mbed::Stream::close()
  .text._ZN4mbed6Stream5writeEPKvj
-                0x08002218       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x08002218                mbed::Stream::write(void const*, unsigned int)
+                0x08002200       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08002200                mbed::Stream::write(void const*, unsigned int)
  .text._ZN4mbed6Stream4readEPvj
-                0x08002248       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x08002248                mbed::Stream::read(void*, unsigned int)
+                0x08002230       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08002230                mbed::Stream::read(void*, unsigned int)
  .text._ZN4mbed6Stream5lseekEli
-                0x08002278        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x08002278                mbed::Stream::lseek(long, int)
+                0x08002260        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08002260                mbed::Stream::lseek(long, int)
  .text._ZN4mbed6Stream6isattyEv
-                0x0800227c        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x0800227c                mbed::Stream::isatty()
+                0x08002264        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08002264                mbed::Stream::isatty()
  .text._ZN4mbed6Stream5fsyncEv
-                0x08002280        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x08002280                mbed::Stream::fsync()
+                0x08002268        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08002268                mbed::Stream::fsync()
  .text._ZN4mbed6Stream4flenEv
-                0x08002284        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x08002284                mbed::Stream::flen()
+                0x0800226c        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x0800226c                mbed::Stream::flen()
  .text._ZN4mbed6StreamD2Ev
-                0x08002288       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x08002288                mbed::Stream::~Stream()
-                0x08002288                mbed::Stream::~Stream()
+                0x08002270       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08002270                mbed::Stream::~Stream()
+                0x08002270                mbed::Stream::~Stream()
  .text._ZThn4_N4mbed6StreamD1Ev
-                0x080022ac        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x080022ac                non-virtual thunk to mbed::Stream::~Stream()
+                0x08002294        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08002294                non-virtual thunk to mbed::Stream::~Stream()
  .text._ZN4mbed6StreamD0Ev
-                0x080022b4       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x080022b4                mbed::Stream::~Stream()
+                0x0800229c       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x0800229c                mbed::Stream::~Stream()
  .text._ZThn4_N4mbed6StreamD0Ev
-                0x080022c8        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x080022c8                non-virtual thunk to mbed::Stream::~Stream()
+                0x080022b0        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x080022b0                non-virtual thunk to mbed::Stream::~Stream()
  .text._ZN4mbed6StreamC2EPKc
-                0x080022d0       0x44 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x080022d0                mbed::Stream::Stream(char const*)
-                0x080022d0                mbed::Stream::Stream(char const*)
+                0x080022b8       0x44 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x080022b8                mbed::Stream::Stream(char const*)
+                0x080022b8                mbed::Stream::Stream(char const*)
  .text._ZN4mbed6Stream4putcEi
-                0x08002314       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x08002314                mbed::Stream::putc(int)
+                0x080022fc       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x080022fc                mbed::Stream::putc(int)
  .text._ZN4mbed6Stream4getcEv
-                0x0800232c       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x0800232c                mbed::Stream::getc()
+                0x08002314       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08002314                mbed::Stream::getc()
  .text.mbed_assert_internal
-                0x08002340       0x2c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(assert.o)
-                0x08002340                mbed_assert_internal
- .text.error    0x0800236c       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(error.o)
-                0x0800236c                error
+                0x08002328       0x2c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(assert.o)
+                0x08002328                mbed_assert_internal
+ .text.error    0x08002354       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(error.o)
+                0x08002354                error
  .text.gpio_init_out
-                0x08002390       0x48 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio.o)
-                0x08002390                gpio_init_out
+                0x08002378       0x48 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio.o)
+                0x08002378                gpio_init_out
  .text.pinmap_pinout
-                0x080023d8       0x44 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
-                0x080023d8                pinmap_pinout
+                0x080023c0       0x44 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
+                0x080023c0                pinmap_pinout
  .text.pinmap_merge
-                0x0800241c       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
-                0x0800241c                pinmap_merge
+                0x08002404       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
+                0x08002404                pinmap_merge
  .text.pinmap_peripheral
-                0x08002440       0x34 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
-                0x08002440                pinmap_peripheral
+                0x08002428       0x34 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
+                0x08002428                pinmap_peripheral
  .text.pinmap_function
-                0x08002474       0x34 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
-                0x08002474                pinmap_function
+                0x0800245c       0x34 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
+                0x0800245c                pinmap_function
  .text.us_ticker_irq_handler
-                0x080024a8        0xc ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker_api.o)
-                0x080024a8                us_ticker_irq_handler
- .text.wait_us  0x080024b4       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(wait_api.o)
-                0x080024b4                wait_us
- .text.wait_ms  0x080024cc        0xc ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(wait_api.o)
-                0x080024cc                wait_ms
+                0x08002490        0xc ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker_api.o)
+                0x08002490                us_ticker_irq_handler
+ .text.wait_us  0x0800249c       0x18 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(wait_api.o)
+                0x0800249c                wait_us
+ .text.wait_ms  0x080024b4        0xc ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(wait_api.o)
+                0x080024b4                wait_ms
  .text.gpio_set
-                0x080024d8       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
-                0x080024d8                gpio_set
+                0x080024c0       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
+                0x080024c0                gpio_set
  .text.gpio_init
-                0x08002508       0x2c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
-                0x08002508                gpio_init
+                0x080024f0       0x2c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
+                0x080024f0                gpio_init
  .text.gpio_mode
-                0x08002534        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
-                0x08002534                gpio_mode
+                0x0800251c        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
+                0x0800251c                gpio_mode
  .text.gpio_dir
-                0x0800253c       0x40 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
-                0x0800253c                gpio_dir
+                0x08002524       0x40 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
+                0x08002524                gpio_dir
  .text.Set_GPIO_Clock
-                0x0800257c       0xec ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
-                0x0800257c                Set_GPIO_Clock
+                0x08002564       0xec ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
+                0x08002564                Set_GPIO_Clock
  .text.pin_function
-                0x08002668       0x60 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
-                0x08002668                pin_function
+                0x08002650       0x60 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
+                0x08002650                pin_function
  .text.pin_mode
-                0x080026c8       0x50 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
-                0x080026c8                pin_mode
+                0x080026b0       0x50 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
+                0x080026b0                pin_mode
  .text.us_ticker_init
-                0x08002718       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
-                0x08002718                us_ticker_init
+                0x08002700       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
+                0x08002700                us_ticker_init
  .text.us_ticker_read
-                0x0800273c       0x1c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
-                0x0800273c                us_ticker_read
+                0x08002724       0x1c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
+                0x08002724                us_ticker_read
  .text.us_ticker_set_interrupt
-                0x08002758       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
-                0x08002758                us_ticker_set_interrupt
+                0x08002740       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
+                0x08002740                us_ticker_set_interrupt
  .text.us_ticker_disable_interrupt
-                0x0800276c       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
-                0x0800276c                us_ticker_disable_interrupt
+                0x08002754       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
+                0x08002754                us_ticker_disable_interrupt
  .text.us_ticker_clear_interrupt
-                0x08002780       0x10 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
-                0x08002780                us_ticker_clear_interrupt
+                0x08002768       0x10 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker.o)
+                0x08002768                us_ticker_clear_interrupt
  .text._ZN4mbed8FileBaseD2Ev
-                0x08002790       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
-                0x08002790                mbed::FileBase::~FileBase()
-                0x08002790                mbed::FileBase::~FileBase()
+                0x08002778       0x30 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
+                0x08002778                mbed::FileBase::~FileBase()
+                0x08002778                mbed::FileBase::~FileBase()
  .text._ZN4mbed8FileBaseD0Ev
-                0x080027c0       0x3c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
-                0x080027c0                mbed::FileBase::~FileBase()
+                0x080027a8       0x3c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
+                0x080027a8                mbed::FileBase::~FileBase()
  .text._ZN4mbed8FileBaseC2EPKcNS_8PathTypeE
-                0x080027fc       0x20 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
-                0x080027fc                mbed::FileBase::FileBase(char const*, mbed::PathType)
-                0x080027fc                mbed::FileBase::FileBase(char const*, mbed::PathType)
+                0x080027e4       0x20 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
+                0x080027e4                mbed::FileBase::FileBase(char const*, mbed::PathType)
+                0x080027e4                mbed::FileBase::FileBase(char const*, mbed::PathType)
  .text._ZN4mbed8FileBase6lookupEPKcj
-                0x0800281c       0x3c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
-                0x0800281c                mbed::FileBase::lookup(char const*, unsigned int)
+                0x08002804       0x3c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
+                0x08002804                mbed::FileBase::lookup(char const*, unsigned int)
  .text._ZN4mbed8FileBase11getPathTypeEv
-                0x08002858        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
-                0x08002858                mbed::FileBase::getPathType()
+                0x08002840        0x4 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
+                0x08002840                mbed::FileBase::getPathType()
  .text._ZN4mbed8FileLikeD2Ev
-                0x0800285c       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
-                0x0800285c                mbed::FileLike::~FileLike()
-                0x0800285c                mbed::FileLike::~FileLike()
+                0x08002844       0x24 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
+                0x08002844                mbed::FileLike::~FileLike()
+                0x08002844                mbed::FileLike::~FileLike()
  .text._ZThn4_N4mbed8FileLikeD1Ev
-                0x08002880        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
-                0x08002880                non-virtual thunk to mbed::FileLike::~FileLike()
+                0x08002868        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
+                0x08002868                non-virtual thunk to mbed::FileLike::~FileLike()
  .text._ZN4mbed8FileLikeD0Ev
-                0x08002888       0x2c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
-                0x08002888                mbed::FileLike::~FileLike()
+                0x08002870       0x2c ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
+                0x08002870                mbed::FileLike::~FileLike()
  .text._ZThn4_N4mbed8FileLikeD0Ev
-                0x080028b4        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
-                0x080028b4                non-virtual thunk to mbed::FileLike::~FileLike()
+                0x0800289c        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
+                0x0800289c                non-virtual thunk to mbed::FileLike::~FileLike()
  .text._ZN4mbed8FileLikeC2EPKc
-                0x080028bc       0x28 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
-                0x080028bc                mbed::FileLike::FileLike(char const*)
-                0x080028bc                mbed::FileLike::FileLike(char const*)
+                0x080028a4       0x28 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
+                0x080028a4                mbed::FileLike::FileLike(char const*)
+                0x080028a4                mbed::FileLike::FileLike(char const*)
  .text.ticker_irq_handler
-                0x080028e4       0x48 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(ticker_api.o)
-                0x080028e4                ticker_irq_handler
+                0x080028cc       0x48 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(ticker_api.o)
+                0x080028cc                ticker_irq_handler
  .text.__aeabi_atexit
-                0x0800292c        0xa c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libstdc++_nano.a(atexit_arm.o)
-                0x0800292c                __aeabi_atexit
- .text._ZdlPv   0x08002936        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libstdc++_nano.a(del_op.o)
-                0x08002936                operator delete(void*)
- *fill*         0x0800293a        0x2 
+                0x08002914        0xa c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libstdc++_nano.a(atexit_arm.o)
+                0x08002914                __aeabi_atexit
+ .text._ZdlPv   0x0800291e        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libstdc++_nano.a(del_op.o)
+                0x0800291e                operator delete(void*)
+ *fill*         0x08002922        0x2 
  .text.__cxa_atexit
-                0x0800293c       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-cxa_atexit.o)
-                0x0800293c                __cxa_atexit
- .text.__errno  0x08002958        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-errno.o)
-                0x08002958                __errno
- .text.exit     0x08002964       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-exit.o)
-                0x08002964                exit
+                0x08002924       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-cxa_atexit.o)
+                0x08002924                __cxa_atexit
+ .text.__errno  0x08002940        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-errno.o)
+                0x08002940                __errno
+ .text.exit     0x0800294c       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-exit.o)
+                0x0800294c                exit
  .text._fclose_r
-                0x0800298c       0xa4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fclose.o)
-                0x0800298c                _fclose_r
- .text.fclose   0x08002a30       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fclose.o)
-                0x08002a30                fclose
+                0x08002974       0xa4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fclose.o)
+                0x08002974                _fclose_r
+ .text.fclose   0x08002a18       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fclose.o)
+                0x08002a18                fclose
  .text.__sflush_r
-                0x08002a40      0x108 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fflush.o)
-                0x08002a40                __sflush_r
+                0x08002a28      0x108 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fflush.o)
+                0x08002a28                __sflush_r
  .text._fflush_r
-                0x08002b48       0x54 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fflush.o)
-                0x08002b48                _fflush_r
- .text.fflush   0x08002b9c       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fflush.o)
-                0x08002b9c                fflush
+                0x08002b30       0x54 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fflush.o)
+                0x08002b30                _fflush_r
+ .text.fflush   0x08002b84       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fflush.o)
+                0x08002b84                fflush
  .text._fgetc_r
-                0x08002bc0       0x58 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fgetc.o)
-                0x08002bc0                _fgetc_r
- .text.fgetc    0x08002c18       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fgetc.o)
-                0x08002c18                fgetc
+                0x08002ba8       0x58 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fgetc.o)
+                0x08002ba8                _fgetc_r
+ .text.fgetc    0x08002c00       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fgetc.o)
+                0x08002c00                fgetc
  .text._cleanup_r
-                0x08002c28        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08002c28                _cleanup_r
+                0x08002c10        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08002c10                _cleanup_r
  .text.std.isra.0
-                0x08002c34       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08002c1c       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
  .text.__sfmoreglue
-                0x08002c7c       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08002c7c                __sfmoreglue
- .text.__sinit  0x08002ca8       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08002ca8                __sinit
- .text.__sfp    0x08002d08       0x74 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08002d08                __sfp
+                0x08002c64       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08002c64                __sfmoreglue
+ .text.__sinit  0x08002c90       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08002c90                __sinit
+ .text.__sfp    0x08002cf0       0x74 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08002cf0                __sfp
  .text.__sfp_lock_acquire
-                0x08002d7c        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08002d7c                __sfp_lock_acquire
+                0x08002d64        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08002d64                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x08002d7e        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08002d7e                __sfp_lock_release
+                0x08002d66        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08002d66                __sfp_lock_release
  .text._fopen_r
-                0x08002d80       0x80 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fopen.o)
-                0x08002d80                _fopen_r
- .text.fopen    0x08002e00       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fopen.o)
-                0x08002e00                fopen
- .text.fprintf  0x08002e14       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fprintf.o)
-                0x08002e14                fiprintf
-                0x08002e14                fprintf
+                0x08002d68       0x80 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fopen.o)
+                0x08002d68                _fopen_r
+ .text.fopen    0x08002de8       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fopen.o)
+                0x08002de8                fopen
+ .text.fprintf  0x08002dfc       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fprintf.o)
+                0x08002dfc                fiprintf
+                0x08002dfc                fprintf
  .text._fputc_r
-                0x08002e38       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fputc.o)
-                0x08002e38                _fputc_r
- .text.fputc    0x08002e80       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fputc.o)
-                0x08002e80                fputc
+                0x08002e20       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fputc.o)
+                0x08002e20                _fputc_r
+ .text.fputc    0x08002e68       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fputc.o)
+                0x08002e68                fputc
  .text._fseek_r
-                0x08002e94        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fseek.o)
-                0x08002e94                _fseek_r
+                0x08002e7c        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fseek.o)
+                0x08002e7c                _fseek_r
  .text._fseeko_r
-                0x08002e98      0x118 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fseeko.o)
-                0x08002e98                _fseeko_r
- .text._fwalk   0x08002fb0       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fwalk.o)
-                0x08002fb0                _fwalk
+                0x08002e80      0x118 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fseeko.o)
+                0x08002e80                _fseeko_r
+ .text._fwalk   0x08002f98       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fwalk.o)
+                0x08002f98                _fwalk
  .text._fwalk_reent
-                0x08002fe8       0x3c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fwalk.o)
-                0x08002fe8                _fwalk_reent
+                0x08002fd0       0x3c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fwalk.o)
+                0x08002fd0                _fwalk_reent
  .text.__libc_init_array
-                0x08003024       0x4c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-init.o)
-                0x08003024                __libc_init_array
+                0x0800300c       0x4c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-init.o)
+                0x0800300c                __libc_init_array
  .text.__smakebuf_r
-                0x08003070       0x9c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-makebuf.o)
-                0x08003070                __smakebuf_r
- .text.malloc   0x0800310c       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-malloc.o)
-                0x0800310c                malloc
- .text.free     0x0800311c       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-malloc.o)
-                0x0800311c                free
- .text.memchr   0x0800312c       0x1e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memchr.o)
-                0x0800312c                memchr
- .text.memcpy   0x0800314a       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memcpy.o)
-                0x0800314a                memcpy
- .text.memset   0x08003160       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memset.o)
-                0x08003160                memset
- .text._free_r  0x08003170       0x88 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-freer.o)
-                0x08003170                _free_r
+                0x08003058       0x9c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-makebuf.o)
+                0x08003058                __smakebuf_r
+ .text.malloc   0x080030f4       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-malloc.o)
+                0x080030f4                malloc
+ .text.free     0x08003104       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-malloc.o)
+                0x08003104                free
+ .text.memchr   0x08003114       0x1e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memchr.o)
+                0x08003114                memchr
+ .text.memcpy   0x08003132       0x16 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memcpy.o)
+                0x08003132                memcpy
+ .text.memset   0x08003148       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memset.o)
+                0x08003148                memset
+ .text._free_r  0x08003158       0x88 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-freer.o)
+                0x08003158                _free_r
  .text._malloc_r
-                0x080031f8       0xac c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-mallocr.o)
-                0x080031f8                _malloc_r
+                0x080031e0       0xac c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-mallocr.o)
+                0x080031e0                _malloc_r
  .text.__sfputc_r
-                0x080032a4       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0800328c       0x2c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x080032d0       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
-                0x080032d0                __sfputs_r
+                0x080032b8       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x080032b8                __sfputs_r
  .text._vfprintf_r
-                0x080032f4      0x210 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
-                0x080032f4                _vfprintf_r
-                0x080032f4                _vfiprintf_r
+                0x080032dc      0x210 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x080032dc                _vfprintf_r
+                0x080032dc                _vfiprintf_r
  .text.vfprintf
-                0x08003504       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
-                0x08003504                vfprintf
-                0x08003504                vfiprintf
- .text.__cvt    0x08003520       0xc0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x08003520                __cvt
+                0x080034ec       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x080034ec                vfprintf
+                0x080034ec                vfiprintf
+ .text.__cvt    0x08003508       0xc0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x08003508                __cvt
  .text.__exponent
-                0x080035e0       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x080035e0                __exponent
+                0x080035c8       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x080035c8                __exponent
  .text._printf_float
-                0x08003640      0x48c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
-                0x08003640                _printf_float
+                0x08003628      0x48c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x08003628                _printf_float
  .text._printf_common
-                0x08003acc       0xea c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x08003acc                _printf_common
- *fill*         0x08003bb6        0x2 
+                0x08003ab4       0xea c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08003ab4                _printf_common
+ *fill*         0x08003b9e        0x2 
  .text._printf_i
-                0x08003bb8      0x240 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x08003bb8                _printf_i
+                0x08003ba0      0x240 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08003ba0                _printf_i
  .text._scanf_float
-                0x08003df8      0x3cc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_float.o)
-                0x08003df8                _scanf_float
+                0x08003de0      0x3cc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_float.o)
+                0x08003de0                _scanf_float
  .text._scanf_chars
-                0x080041c4       0xc0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_i.o)
-                0x080041c4                _scanf_chars
+                0x080041ac       0xc0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x080041ac                _scanf_chars
  .text._scanf_i
-                0x08004284      0x1e4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_i.o)
-                0x08004284                _scanf_i
- .text._open_r  0x08004468       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-openr.o)
-                0x08004468                _open_r
- .text._putc_r  0x0800448c       0x78 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-putc.o)
-                0x0800448c                _putc_r
- .text.lflush   0x08004504       0x12 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-refill.o)
- *fill*         0x08004516        0x2 
+                0x0800426c      0x1e4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x0800426c                _scanf_i
+ .text._open_r  0x08004450       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-openr.o)
+                0x08004450                _open_r
+ .text._putc_r  0x08004474       0x78 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-putc.o)
+                0x08004474                _putc_r
+ .text.lflush   0x080044ec       0x12 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-refill.o)
+ *fill*         0x080044fe        0x2 
  .text.__srefill_r
-                0x08004518      0x10c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-refill.o)
-                0x08004518                __srefill_r
+                0x08004500      0x10c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-refill.o)
+                0x08004500                __srefill_r
  .text.__srget_r
-                0x08004624       0x58 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-rget.o)
-                0x08004624                __srget_r
+                0x0800460c       0x58 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-rget.o)
+                0x0800460c                __srget_r
  .text.__fpclassifyd
-                0x0800467c       0x54 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-s_fpclassify.o)
-                0x0800467c                __fpclassifyd
- .text._sbrk_r  0x080046d0       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sbrkr.o)
-                0x080046d0                _sbrk_r
- .text.__sccl   0x080046f0       0x64 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sccl.o)
-                0x080046f0                __sccl
- .text.setbuf   0x08004754       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-setbuf.o)
-                0x08004754                setbuf
- .text.setvbuf  0x08004764      0x110 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-setvbuf.o)
-                0x08004764                setvbuf
- .text.nanf     0x08004874        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sf_nan.o)
-                0x08004874                nanf
- .text.sprintf  0x0800487c       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sprintf.o)
-                0x0800487c                siprintf
-                0x0800487c                sprintf
- .text.sscanf   0x080048c4       0x54 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sscanf.o)
-                0x080048c4                siscanf
-                0x080048c4                sscanf
- .text.__sread  0x08004918       0x22 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
-                0x08004918                __sread
+                0x08004664       0x54 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-s_fpclassify.o)
+                0x08004664                __fpclassifyd
+ .text._sbrk_r  0x080046b8       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sbrkr.o)
+                0x080046b8                _sbrk_r
+ .text.__sccl   0x080046d8       0x64 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sccl.o)
+                0x080046d8                __sccl
+ .text.setbuf   0x0800473c       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-setbuf.o)
+                0x0800473c                setbuf
+ .text.setvbuf  0x0800474c      0x110 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-setvbuf.o)
+                0x0800474c                setvbuf
+ .text.nanf     0x0800485c        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sf_nan.o)
+                0x0800485c                nanf
+ .text.sprintf  0x08004864       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sprintf.o)
+                0x08004864                siprintf
+                0x08004864                sprintf
+ .text.sscanf   0x080048ac       0x54 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-sscanf.o)
+                0x080048ac                siscanf
+                0x080048ac                sscanf
+ .text.__sread  0x08004900       0x22 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
+                0x08004900                __sread
  .text.__seofread
-                0x0800493a        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
-                0x0800493a                __seofread
+                0x08004922        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
+                0x08004922                __seofread
  .text.__swrite
-                0x0800493e       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
-                0x0800493e                __swrite
- .text.__sseek  0x08004976       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
-                0x08004976                __sseek
+                0x08004926       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
+                0x08004926                __swrite
+ .text.__sseek  0x0800495e       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
+                0x0800495e                __sseek
  .text.__sclose
-                0x0800499a        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
-                0x0800499a                __sclose
- .text          0x080049a2       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strcmp.o)
-                0x080049a2                strcmp
- .text.strlen   0x080049b6       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strlen.o)
-                0x080049b6                strlen
- .text.strncmp  0x080049c6       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strncmp.o)
-                0x080049c6                strncmp
- .text.match    0x080049fa       0x26 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
- .text.sulp     0x08004a20       0x42 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
- *fill*         0x08004a62        0x6 
+                0x08004982        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-stdio.o)
+                0x08004982                __sclose
+ .text          0x0800498a       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strcmp.o)
+                0x0800498a                strcmp
+ .text.strlen   0x0800499e       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strlen.o)
+                0x0800499e                strlen
+ .text.strncmp  0x080049ae       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strncmp.o)
+                0x080049ae                strncmp
+ .text.match    0x080049e2       0x26 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
+ .text.sulp     0x08004a08       0x42 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
+ *fill*         0x08004a4a        0x6 
  .text._strtod_r
-                0x08004a68      0xc24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
-                0x08004a68                _strtod_r
+                0x08004a50      0xc24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
+                0x08004a50                _strtod_r
  .text._strtol_r
-                0x0800568c      0x10c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtol.o)
-                0x0800568c                _strtol_r
+                0x08005674      0x10c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtol.o)
+                0x08005674                _strtol_r
  .text._strtoul_r
-                0x08005798       0xf8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtoul.o)
-                0x08005798                _strtoul_r
+                0x08005780       0xf8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtoul.o)
+                0x08005780                _strtoul_r
  .text.__submore
-                0x08005890       0x76 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-ungetc.o)
-                0x08005890                __submore
- *fill*         0x08005906        0x2 
+                0x08005878       0x76 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-ungetc.o)
+                0x08005878                __submore
+ *fill*         0x080058ee        0x2 
  .text.__swbuf_r
-                0x08005908       0xa8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-wbuf.o)
-                0x08005908                __swbuf_r
+                0x080058f0       0xa8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-wbuf.o)
+                0x080058f0                __swbuf_r
  .text._write_r
-                0x080059b0       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-writer.o)
-                0x080059b0                _write_r
+                0x08005998       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-writer.o)
+                0x08005998                _write_r
  .text.__swsetup_r
-                0x080059d4       0xd8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-wsetup.o)
-                0x080059d4                __swsetup_r
+                0x080059bc       0xd8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-wsetup.o)
+                0x080059bc                __swsetup_r
  .text._close_r
-                0x08005aac       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-closer.o)
-                0x08005aac                _close_r
- .text.quorem   0x08005acc      0x11a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-dtoa.o)
- *fill*         0x08005be6        0x2 
- .text._dtoa_r  0x08005be8      0xb88 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-dtoa.o)
-                0x08005be8                _dtoa_r
+                0x08005a94       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-closer.o)
+                0x08005a94                _close_r
+ .text.quorem   0x08005ab4      0x11a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-dtoa.o)
+ *fill*         0x08005bce        0x2 
+ .text._dtoa_r  0x08005bd0      0xb88 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-dtoa.o)
+                0x08005bd0                _dtoa_r
  .text.__sflags
-                0x08006770       0x6e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-flags.o)
-                0x08006770                __sflags
- *fill*         0x080067de        0x2 
+                0x08006758       0x6e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-flags.o)
+                0x08006758                __sflags
+ *fill*         0x080067c6        0x2 
  .text._fstat_r
-                0x080067e0       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fstatr.o)
-                0x080067e0                _fstat_r
- .text.rshift   0x08006804       0x6c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-gethex.o)
+                0x080067c8       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-fstatr.o)
+                0x080067c8                _fstat_r
+ .text.rshift   0x080067ec       0x6c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-gethex.o)
  .text.__hexdig_fun
-                0x08006870       0x2a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-gethex.o)
-                0x08006870                __hexdig_fun
+                0x08006858       0x2a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-gethex.o)
+                0x08006858                __hexdig_fun
  .text.__gethex
-                0x0800689a      0x44a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-gethex.o)
-                0x0800689a                __gethex
- .text.L_shift  0x08006ce4       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-hexnan.o)
+                0x08006882      0x44a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-gethex.o)
+                0x08006882                __gethex
+ .text.L_shift  0x08006ccc       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-hexnan.o)
  .text.__hexnan
-                0x08006d08      0x114 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-hexnan.o)
-                0x08006d08                __hexnan
+                0x08006cf0      0x114 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-gdtoa-hexnan.o)
+                0x08006cf0                __hexnan
  .text._isatty_r
-                0x08006e1c       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-isattyr.o)
-                0x08006e1c                _isatty_r
+                0x08006e04       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-isattyr.o)
+                0x08006e04                _isatty_r
  .text._localeconv_r
-                0x08006e3c        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-locale.o)
-                0x08006e3c                _localeconv_r
+                0x08006e24        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-locale.o)
+                0x08006e24                _localeconv_r
  .text._lseek_r
-                0x08006e44       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-lseekr.o)
-                0x08006e44                _lseek_r
- .text.memmove  0x08006e68       0x36 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memmove.o)
-                0x08006e68                memmove
- .text._Balloc  0x08006e9e       0x6a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08006e9e                _Balloc
- .text._Bfree   0x08006f08       0x2e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08006f08                _Bfree
+                0x08006e2c       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-lseekr.o)
+                0x08006e2c                _lseek_r
+ .text.memmove  0x08006e50       0x36 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-memmove.o)
+                0x08006e50                memmove
+ .text._Balloc  0x08006e86       0x6a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08006e86                _Balloc
+ .text._Bfree   0x08006ef0       0x2e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08006ef0                _Bfree
  .text.__multadd
-                0x08006f36       0x7c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08006f36                __multadd
- .text.__s2b    0x08006fb2       0x80 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08006fb2                __s2b
+                0x08006f1e       0x7c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08006f1e                __multadd
+ .text.__s2b    0x08006f9a       0x80 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08006f9a                __s2b
  .text.__hi0bits
-                0x08007032       0x40 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08007032                __hi0bits
+                0x0800701a       0x40 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x0800701a                __hi0bits
  .text.__lo0bits
-                0x08007072       0x5a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08007072                __lo0bits
- .text.__i2b    0x080070cc       0x12 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x080070cc                __i2b
+                0x0800705a       0x5a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x0800705a                __lo0bits
+ .text.__i2b    0x080070b4       0x12 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x080070b4                __i2b
  .text.__multiply
-                0x080070de      0x122 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x080070de                __multiply
+                0x080070c6      0x122 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x080070c6                __multiply
  .text.__pow5mult
-                0x08007200       0x9c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08007200                __pow5mult
+                0x080071e8       0x9c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x080071e8                __pow5mult
  .text.__lshift
-                0x0800729c       0xa6 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x0800729c                __lshift
- .text.__mcmp   0x08007342       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08007342                __mcmp
- .text.__mdiff  0x0800737a       0xbe c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x0800737a                __mdiff
- .text.__ulp    0x08007438       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08007438                __ulp
- .text.__b2d    0x08007480       0x9e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08007480                __b2d
- .text.__d2b    0x0800751e       0xa4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x0800751e                __d2b
- .text.__ratio  0x080075c2       0x52 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x080075c2                __ratio
+                0x08007284       0xa6 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08007284                __lshift
+ .text.__mcmp   0x0800732a       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x0800732a                __mcmp
+ .text.__mdiff  0x08007362       0xbe c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08007362                __mdiff
+ .text.__ulp    0x08007420       0x48 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08007420                __ulp
+ .text.__b2d    0x08007468       0x9e c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08007468                __b2d
+ .text.__d2b    0x08007506       0xa4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08007506                __d2b
+ .text.__ratio  0x080075aa       0x52 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x080075aa                __ratio
  .text.__copybits
-                0x08007614       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08007614                __copybits
+                0x080075fc       0x34 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x080075fc                __copybits
  .text.__any_on
-                0x08007648       0x44 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08007648                __any_on
+                0x08007630       0x44 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08007630                __any_on
  .text._calloc_r
-                0x0800768c       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-callocr.o)
-                0x0800768c                _calloc_r
+                0x08007674       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-callocr.o)
+                0x08007674                _calloc_r
  .text._realloc_r
-                0x080076a8       0x4c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-reallocr.o)
-                0x080076a8                _realloc_r
+                0x08007690       0x4c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-reallocr.o)
+                0x08007690                _realloc_r
  .text.__ssputs_r
-                0x080076f4       0xb2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x080076f4                __ssputs_r
- *fill*         0x080077a6        0x2 
+                0x080076dc       0xb2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x080076dc                __ssputs_r
+ *fill*         0x0800778e        0x2 
  .text._svfprintf_r
-                0x080077a8      0x1e4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
-                0x080077a8                _svfiprintf_r
-                0x080077a8                _svfprintf_r
+                0x08007790      0x1e4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
+                0x08007790                _svfiprintf_r
+                0x08007790                _svfprintf_r
  .text._sungetc_r
-                0x0800798c       0x7a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfscanf.o)
-                0x0800798c                _sungetc_r
+                0x08007974       0x7a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfscanf.o)
+                0x08007974                _sungetc_r
  .text.__ssrefill_r
-                0x08007a06       0x3a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfscanf.o)
-                0x08007a06                __ssrefill_r
+                0x080079ee       0x3a c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfscanf.o)
+                0x080079ee                __ssrefill_r
  .text.__ssvfscanf_r
-                0x08007a40      0x29c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfscanf.o)
-                0x08007a40                __ssvfiscanf_r
-                0x08007a40                __ssvfscanf_r
- .text._read_r  0x08007cdc       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-readr.o)
-                0x08007cdc                _read_r
+                0x08007a28      0x29c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfscanf.o)
+                0x08007a28                __ssvfiscanf_r
+                0x08007a28                __ssvfscanf_r
+ .text._read_r  0x08007cc4       0x24 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-readr.o)
+                0x08007cc4                _read_r
  .text._malloc_usable_size_r
-                0x08007d00       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-msizer.o)
-                0x08007d00                _malloc_usable_size_r
- .text          0x08007d14      0x370 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_addsubdf3.o)
-                0x08007d14                __aeabi_drsub
-                0x08007d1c                __aeabi_dsub
-                0x08007d1c                __subdf3
-                0x08007d20                __aeabi_dadd
-                0x08007d20                __adddf3
-                0x08007f98                __floatunsidf
-                0x08007f98                __aeabi_ui2d
-                0x08007fb8                __floatsidf
-                0x08007fb8                __aeabi_i2d
-                0x08007fdc                __aeabi_f2d
-                0x08007fdc                __extendsfdf2
-                0x08008018                __floatundidf
-                0x08008018                __aeabi_ul2d
-                0x08008028                __floatdidf
-                0x08008028                __aeabi_l2d
- .text          0x08008084      0x424 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_muldivdf3.o)
-                0x08008084                __aeabi_dmul
-                0x08008084                __muldf3
-                0x080082d8                __divdf3
-                0x080082d8                __aeabi_ddiv
- .text          0x080084a8      0x110 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_cmpdf2.o)
-                0x080084a8                __gtdf2
-                0x080084a8                __gedf2
-                0x080084b0                __ltdf2
-                0x080084b0                __ledf2
-                0x080084b8                __nedf2
-                0x080084b8                __eqdf2
-                0x080084b8                __cmpdf2
-                0x08008534                __aeabi_cdrcmple
-                0x08008544                __aeabi_cdcmpeq
-                0x08008544                __aeabi_cdcmple
-                0x08008554                __aeabi_dcmpeq
-                0x08008568                __aeabi_dcmplt
-                0x0800857c                __aeabi_dcmple
-                0x08008590                __aeabi_dcmpge
-                0x080085a4                __aeabi_dcmpgt
- .text          0x080085b8       0x50 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_fixdfsi.o)
-                0x080085b8                __aeabi_d2iz
-                0x080085b8                __fixdfsi
- .text          0x08008608       0x40 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_fixunsdfsi.o)
-                0x08008608                __aeabi_d2uiz
-                0x08008608                __fixunsdfsi
- .text          0x08008648       0xa0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_truncdfsf2.o)
-                0x08008648                __truncdfsf2
-                0x08008648                __aeabi_d2f
+                0x08007ce8       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-msizer.o)
+                0x08007ce8                _malloc_usable_size_r
+ .text          0x08007cfc      0x370 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_addsubdf3.o)
+                0x08007cfc                __aeabi_drsub
+                0x08007d04                __aeabi_dsub
+                0x08007d04                __subdf3
+                0x08007d08                __aeabi_dadd
+                0x08007d08                __adddf3
+                0x08007f80                __floatunsidf
+                0x08007f80                __aeabi_ui2d
+                0x08007fa0                __floatsidf
+                0x08007fa0                __aeabi_i2d
+                0x08007fc4                __aeabi_f2d
+                0x08007fc4                __extendsfdf2
+                0x08008000                __floatundidf
+                0x08008000                __aeabi_ul2d
+                0x08008010                __floatdidf
+                0x08008010                __aeabi_l2d
+ .text          0x0800806c      0x424 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_muldivdf3.o)
+                0x0800806c                __aeabi_dmul
+                0x0800806c                __muldf3
+                0x080082c0                __divdf3
+                0x080082c0                __aeabi_ddiv
+ .text          0x08008490      0x110 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_cmpdf2.o)
+                0x08008490                __gtdf2
+                0x08008490                __gedf2
+                0x08008498                __ltdf2
+                0x08008498                __ledf2
+                0x080084a0                __nedf2
+                0x080084a0                __eqdf2
+                0x080084a0                __cmpdf2
+                0x0800851c                __aeabi_cdrcmple
+                0x0800852c                __aeabi_cdcmpeq
+                0x0800852c                __aeabi_cdcmple
+                0x0800853c                __aeabi_dcmpeq
+                0x08008550                __aeabi_dcmplt
+                0x08008564                __aeabi_dcmple
+                0x08008578                __aeabi_dcmpge
+                0x0800858c                __aeabi_dcmpgt
+ .text          0x080085a0       0x50 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_fixdfsi.o)
+                0x080085a0                __aeabi_d2iz
+                0x080085a0                __fixdfsi
+ .text          0x080085f0       0x40 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_fixunsdfsi.o)
+                0x080085f0                __aeabi_d2uiz
+                0x080085f0                __fixunsdfsi
+ .text          0x08008630       0xa0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp\libgcc.a(_arm_truncdfsf2.o)
+                0x08008630                __truncdfsf2
+                0x08008630                __aeabi_d2f
  *(.init)
- .init          0x080086e8        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
-                0x080086e8                _init
- .init          0x080086ec        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+ .init          0x080086d0        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+                0x080086d0                _init
+ .init          0x080086d4        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
  *(.fini)
- .fini          0x080086f4        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
-                0x080086f4                _fini
- .fini          0x080086f8        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
+ .fini          0x080086dc        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crti.o
+                0x080086dc                _fini
+ .fini          0x080086e0        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtn.o
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -3801,246 +3801,246 @@ LOAD c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm
  *(.dtors)
  *(.rodata*)
  .rodata.__stdin_name
-                0x08008700        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08008700                __stdin_name
+                0x080086e8        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080086e8                __stdin_name
  .rodata.__stderr_name
-                0x08008708        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08008708                __stderr_name
+                0x080086f0        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080086f0                __stderr_name
  .rodata.__stdout_name
-                0x08008710        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08008710                __stdout_name
+                0x080086f8        0x8 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x080086f8                __stdout_name
  .rodata._ZTVN4mbed10FileHandleE
-                0x08008718       0x30 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
-                0x08008718                vtable for mbed::FileHandle
+                0x08008700       0x30 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08008700                vtable for mbed::FileHandle
  .rodata.str1.4
-                0x08008748        0xe mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x08008730        0xe mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
                                  0x10 (size before relaxing)
- *fill*         0x08008756        0x2 
+ *fill*         0x0800873e        0x2 
  .rodata.APBAHBPrescTable
-                0x08008758       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
-                0x08008758                APBAHBPrescTable
+                0x08008740       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/stm32f4xx_hal_rcc.o
+                0x08008740                APBAHBPrescTable
  .rodata.AHBPrescTable
-                0x08008768       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x08008768                AHBPrescTable
+                0x08008750       0x10 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x08008750                AHBPrescTable
  .rodata.str1.4
-                0x08008778       0xa6 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
+                0x08008760       0xa6 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pwmout_api.o)
                                  0xa8 (size before relaxing)
- *fill*         0x0800881e        0x2 
+ *fill*         0x08008806        0x2 
  .rodata.str1.4
-                0x08008820       0x84 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
- *fill*         0x080088a4        0x4 
+                0x08008808       0x84 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(serial_api.o)
+ *fill*         0x0800888c        0x4 
  .rodata._ZTVN4mbed10SerialBaseE
-                0x080088a8       0x10 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
-                0x080088a8                vtable for mbed::SerialBase
+                0x08008890       0x10 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
+                0x08008890                vtable for mbed::SerialBase
  .rodata._ZTVN4mbed6SerialE
-                0x080088b8       0x60 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
-                0x080088b8                vtable for mbed::Serial
+                0x080088a0       0x60 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Serial.o)
+                0x080088a0                vtable for mbed::Serial
  .rodata._ZTVN4mbed6StreamE
-                0x08008918       0x48 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
-                0x08008918                vtable for mbed::Stream
+                0x08008900       0x48 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08008900                vtable for mbed::Stream
  .rodata.str1.4
-                0x08008960        0x3 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
+                0x08008948        0x3 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(Stream.o)
                                   0x8 (size before relaxing)
- *fill*         0x08008963        0x1 
+ *fill*         0x0800894b        0x1 
  .rodata.str1.4
-                0x08008964       0x31 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(assert.o)
+                0x0800894c       0x31 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(assert.o)
                                  0x34 (size before relaxing)
- *fill*         0x08008995        0x3 
+ *fill*         0x0800897d        0x3 
  .rodata.str1.4
-                0x08008998       0x86 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio.o)
+                0x08008980       0x86 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio.o)
                                  0x88 (size before relaxing)
- *fill*         0x08008a1e        0x2 
+ *fill*         0x08008a06        0x2 
  .rodata.str1.4
-                0x08008a20       0x66 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
+                0x08008a08       0x66 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap_common.o)
                                  0x68 (size before relaxing)
- *fill*         0x08008a86        0x2 
+ *fill*         0x08008a6e        0x2 
  .rodata.us_interface
-                0x08008a88       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker_api.o)
+                0x08008a70       0x14 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker_api.o)
  .rodata.us_data
-                0x08008a9c        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker_api.o)
+                0x08008a84        0x8 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(us_ticker_api.o)
  .rodata.PinMap_UART_RX
-                0x08008aa4       0x54 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(PeripheralPins.o)
-                0x08008aa4                PinMap_UART_RX
+                0x08008a8c       0x54 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(PeripheralPins.o)
+                0x08008a8c                PinMap_UART_RX
  .rodata.PinMap_PWM
-                0x08008af8      0x168 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(PeripheralPins.o)
-                0x08008af8                PinMap_PWM
+                0x08008ae0      0x168 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(PeripheralPins.o)
+                0x08008ae0                PinMap_PWM
  .rodata.PinMap_UART_TX
-                0x08008c60       0x54 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(PeripheralPins.o)
-                0x08008c60                PinMap_UART_TX
+                0x08008c48       0x54 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(PeripheralPins.o)
+                0x08008c48                PinMap_UART_TX
  .rodata.str1.4
-                0x08008cb4       0x7a ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
+                0x08008c9c       0x7a ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(gpio_api.o)
                                  0x94 (size before relaxing)
- *fill*         0x08008d2e        0x2 
+ *fill*         0x08008d16        0x2 
  .rodata.gpio_mode
-                0x08008d30       0x34 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
+                0x08008d18       0x34 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
  .rodata.str1.4
-                0x08008d64       0x88 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
+                0x08008d4c       0x88 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(pinmap.o)
                                  0x9c (size before relaxing)
- *fill*         0x08008dec        0x4 
+ *fill*         0x08008dd4        0x4 
  .rodata._ZTVN4mbed8FileBaseE
-                0x08008df0       0x10 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
-                0x08008df0                vtable for mbed::FileBase
+                0x08008dd8       0x10 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileBase.o)
+                0x08008dd8                vtable for mbed::FileBase
  .rodata._ZTVN4mbed8FileLikeE
-                0x08008e00       0x40 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
-                0x08008e00                vtable for mbed::FileLike
+                0x08008de8       0x40 ./mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM\libmbed.a(FileLike.o)
+                0x08008de8                vtable for mbed::FileLike
  .rodata.__sf_fake_stdin
-                0x08008e40       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08008e40                __sf_fake_stdin
+                0x08008e28       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08008e28                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x08008e60       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08008e60                __sf_fake_stdout
+                0x08008e48       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08008e48                __sf_fake_stdout
  .rodata.__sf_fake_stderr
-                0x08008e80       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
-                0x08008e80                __sf_fake_stderr
+                0x08008e68       0x20 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-findfp.o)
+                0x08008e68                __sf_fake_stderr
  .rodata.str1.1
-                0x08008ea0        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
- *fill*         0x08008ea2        0x2 
+                0x08008e88        0x2 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
+ *fill*         0x08008e8a        0x2 
  .rodata._global_impure_ptr
-                0x08008ea4        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
-                0x08008ea4                _global_impure_ptr
+                0x08008e8c        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
+                0x08008e8c                _global_impure_ptr
  .rodata.str1.1
-                0x08008ea8       0x11 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
+                0x08008e90       0x11 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata.str1.1
-                0x08008eb9       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
+                0x08008ea1       0x10 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_float.o)
                                  0x12 (size before relaxing)
  .rodata.str1.1
-                0x08008ec9       0x22 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x08008eb1       0x22 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfprintf_i.o)
  .rodata.str1.1
-                0x08008eeb        0x5 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_float.o)
- .rodata        0x08008ef0        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x08008ed3        0x5 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_float.o)
+ .rodata        0x08008ed8        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_i.o)
  .rodata.str1.1
-                0x08008efc       0x1b c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x08008ee4       0x1b c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-vfscanf_i.o)
  .rodata.str1.1
                 0x00000000       0x1b c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
                                   0xc (size before relaxing)
- *fill*         0x08008f17        0x1 
+ *fill*         0x08008eff        0x1 
  .rodata.fpinan.5315
-                0x08008f18       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
- *fill*         0x08008f2c        0x4 
+                0x08008f00       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
+ *fill*         0x08008f14        0x4 
  .rodata.tinytens
-                0x08008f30       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
+                0x08008f18       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
  .rodata.fpi.5279
-                0x08008f58       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
+                0x08008f40       0x14 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strtod.o)
  .rodata._ctype_
-                0x08008f6c      0x101 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-ctype_.o)
-                0x08008f6c                _ctype_
+                0x08008f54      0x101 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-ctype_.o)
+                0x08008f54                _ctype_
  .rodata.str1.1
-                0x0800906d        0xd c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-dtoa.o)
+                0x08009055        0xd c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-dtoa.o)
                                   0xf (size before relaxing)
  .rodata.str1.1
-                0x0800907a        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-locale.o)
+                0x08009062        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-locale.o)
                                   0xb (size before relaxing)
- *fill*         0x08009082        0x6 
+ *fill*         0x0800906a        0x6 
  .rodata.__mprec_tens
-                0x08009088       0xc8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08009088                __mprec_tens
+                0x08009070       0xc8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08009070                __mprec_tens
  .rodata.__mprec_bigtens
-                0x08009150       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
-                0x08009150                __mprec_bigtens
+                0x08009138       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08009138                __mprec_bigtens
  .rodata.p05.5314
-                0x08009178        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
+                0x08009160        0xc c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-mprec.o)
  .rodata.str1.1
                 0x00000000       0x11 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfprintf.o)
  .rodata.str1.1
                 0x00000000        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-nano-svfscanf.o)
  *(.eh_frame*)
- .eh_frame      0x08009184        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
- .eh_frame      0x08009184       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strcmp.o)
- .eh_frame      0x080091ac        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+ .eh_frame      0x0800916c        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .eh_frame      0x0800916c       0x28 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-strcmp.o)
+ .eh_frame      0x08009194        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
 
-.glue_7         0x080091b0        0x0
+.glue_7         0x08009198        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x080091b0        0x0
+.glue_7t        0x08009198        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x080091b0        0x0
+.vfp11_veneer   0x08009198        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x080091b0        0x0
+.v4_bx          0x08009198        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x080091b0        0x0
+.iplt           0x08009198        0x0
  .iplt          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x080091b0                __exidx_start = .
+                0x08009198                __exidx_start = .
 
-.ARM.exidx      0x080091b0        0x8
+.ARM.exidx      0x08009198        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x080091b0        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
-                0x080091b8                __exidx_end = .
-                0x080091b8                __etext = .
-                0x080091b8                _sidata = .
+ .ARM.exidx     0x08009198        0x8 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp/crt0.o
+                0x080091a0                __exidx_end = .
+                0x080091a0                __etext = .
+                0x080091a0                _sidata = .
 
-.rel.dyn        0x080091b8        0x0
+.rel.dyn        0x080091a0        0x0
  .rel.iplt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
 
-.data           0x20000198       0xc0 load address 0x080091b8
+.data           0x20000198       0xbc load address 0x080091a0
                 0x20000198                __data_start__ = .
                 0x20000198                _sdata = .
  *(vtable)
  *(.data*)
  .data          0x20000198        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
                 0x20000198                __dso_handle
- .data.i        0x2000019c        0x4 main.o
-                0x2000019c                i
  .data._ZZ5_sbrkE4heap
-                0x200001a0        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
+                0x2000019c        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/retarget.o
  .data.SystemCoreClock
-                0x200001a4        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
-                0x200001a4                SystemCoreClock
+                0x200001a0        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/system_stm32f4xx.o
+                0x200001a0                SystemCoreClock
  .data.impure_data
-                0x200001a8       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
+                0x200001a4       0x60 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
  .data._impure_ptr
-                0x20000208        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
-                0x20000208                _impure_ptr
+                0x20000204        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-impure.o)
+                0x20000204                _impure_ptr
  .data.__ctype_ptr__
-                0x2000020c        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-ctype_.o)
-                0x2000020c                __ctype_ptr__
- .data.lconv    0x20000210       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-locale.o)
-                0x20000248                . = ALIGN (0x4)
-                0x20000248                PROVIDE (__preinit_array_start, .)
+                0x20000208        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-ctype_.o)
+                0x20000208                __ctype_ptr__
+ .data.lconv    0x2000020c       0x38 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/armv7e-m/softfp\libc_nano.a(lib_a-locale.o)
+                0x20000244                . = ALIGN (0x4)
+                0x20000244                PROVIDE (__preinit_array_start, .)
  *(.preinit_array)
-                0x20000248                PROVIDE (__preinit_array_end, .)
-                0x20000248                . = ALIGN (0x4)
-                0x20000248                PROVIDE (__init_array_start, .)
+                0x20000244                PROVIDE (__preinit_array_end, .)
+                0x20000244                . = ALIGN (0x4)
+                0x20000244                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x20000248        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
- .init_array    0x2000024c        0x4 main.o
-                0x20000250                PROVIDE (__init_array_end, .)
-                0x20000250                . = ALIGN (0x4)
-                0x20000250                PROVIDE (__fini_array_start, .)
+ .init_array    0x20000244        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .init_array    0x20000248        0x4 main.o
+                0x2000024c                PROVIDE (__init_array_end, .)
+                0x2000024c                . = ALIGN (0x4)
+                0x2000024c                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array)
- .fini_array    0x20000250        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
-                0x20000254                PROVIDE (__fini_array_end, .)
+ .fini_array    0x2000024c        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+                0x20000250                PROVIDE (__fini_array_end, .)
  *(.jcr*)
- .jcr           0x20000254        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
- .jcr           0x20000254        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
-                0x20000258                . = ALIGN (0x4)
-                0x20000258                __data_end__ = .
-                0x20000258                _edata = .
+ .jcr           0x20000250        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .jcr           0x20000250        0x4 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtend.o
+                0x20000254                . = ALIGN (0x4)
+                0x20000254                __data_end__ = .
+                0x20000254                _edata = .
 
-.igot.plt       0x20000258        0x0 load address 0x08009278
+.igot.plt       0x20000254        0x0 load address 0x0800925c
  .igot.plt      0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
 
-.bss            0x20000258      0x318 load address 0x08009278
-                0x20000258                . = ALIGN (0x4)
-                0x20000258                __bss_start__ = .
-                0x20000258                _sbss = .
+.bss            0x20000254      0x31c load address 0x0800925c
+                0x20000254                . = ALIGN (0x4)
+                0x20000254                __bss_start__ = .
+                0x20000254                _sbss = .
  *(.bss*)
- .bss           0x20000258       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .bss           0x20000254       0x1c c:/program files (x86)/gnu tools arm embedded/4.9 2015q3/bin/../lib/gcc/arm-none-eabi/4.9.3/armv7e-m/softfp/crtbegin.o
+ .bss.i         0x20000270        0x4 main.o
+                0x20000270                i
  .bss.myled     0x20000274       0x10 main.o
                 0x20000274                myled
- .bss.cam       0x20000284       0x20 main.o
-                0x20000284                cam
- .bss.pc        0x200002a4       0x6c main.o
-                0x200002a4                pc
- .bss.x         0x20000310        0x4 main.o
-                0x20000310                x
+ .bss.pc        0x20000284       0x6c main.o
+                0x20000284                pc
+ .bss.x         0x200002f0        0x4 main.o
+                0x200002f0                x
+ .bss.cam       0x200002f4       0x20 main.o
+                0x200002f4                cam
  .bss.PreviousVal
                 0x20000314        0x4 mbed/TARGET_NUCLEO_F411RE/TOOLCHAIN_GCC_ARM/hal_tick.o
                 0x20000314                PreviousVal
@@ -4397,9 +4397,9 @@ OUTPUT(tracking.elf elf32-littlearm)
  .debug_ranges  0x00000000       0x88 main.o
  .debug_ranges  0x00000088       0xa0 Servo/Servo.o
 
-.debug_line     0x00000000      0x90f
- .debug_line    0x00000000      0x4d1 main.o
- .debug_line    0x000004d1      0x43e Servo/Servo.o
+.debug_line     0x00000000      0x910
+ .debug_line    0x00000000      0x4d2 main.o
+ .debug_line    0x000004d2      0x43e Servo/Servo.o
 
 .debug_str      0x00000000     0x11a8
  .debug_str     0x00000000     0x1116 main.o
